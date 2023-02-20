@@ -27,9 +27,9 @@ app.get("/contact",(req,res)=>{
     res.render('contact')
 })
 app.post("/submit",(req,res)=>{
-    // console.log(req.body.name);
+    console.log(req.body.name);
   
-    // console.log(req.body.email);
+    console.log(req.body.email);
     res.render('submit' ,{name:req.body.name})
 })
 
