@@ -1,0 +1,29 @@
+doctype html 
+html
+    head 
+        title Contact
+        style
+            include ../static/style.css 
+    body 
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About ]
+                li #[a(href="/services") Services]
+                li #[a(href="/contact") Contact Us ]
+        div.form
+            form(action="/submit" method="post")
+                h1 Contact us
+                div.forms 
+                    div.input 
+                        |Name:-
+                        input(type="text" placeholder="Enter your Name" name="name")
+                    div.input 
+                        |Email:-
+                        input(type="email" placeholder="Enter your Email" name="email")
+                    div.input 
+                        input(type="submit")
+
+            include ../static/index.js
+    script(src="script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')") 
+       

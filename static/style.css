@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Lacquer', cursive;
+}
+#navbar{
+    background-color: black;
+    padding: 13px 4px;
+
+}
+
+#navbar ul{
+display:flex;
+flex-direction:row;
+justify-content: center;
+
+
+}
+#navbar li{
+    list-style-type: none;
+    padding : 13px 30px;
+}
+
+#navbar li a{
+    text-decoration: none ;
+    padding: 7px 11px;
+    color:white;
+    
+}
+
+#introSection{
+background: center / cover no-repeat url("allef-vinicius-iNOgTXeT3OM-unsplash.jpg");
+height: 400px;
+flex-direction: column;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+/* background-color: red; */
+
+}
+.small{
+    font-size: 25px ;
+    padding-top: 8px;
+}
+#sponsorSection{
+        background: center / cover no-repeat url("sponsor.jpg");
+        height: 400px;
+        flex-direction: column;
+        color:rgb(253, 252, 252);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+}
+#aboutSection{
+        background: center / cover no-repeat url("aboutdance.jpg");
+        height: 400px;
+        flex-direction: column;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+}
+#aboutSponsor{
+        background: center / cover no-repeat url("aboutsponsor.jpg");
+        height: 400px;
+        flex-direction: column;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+}
+#serviceSection{
+        background: center / cover no-repeat url("serviceSection.jpg");
+        height: 400px;
+        flex-direction: column;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+}
+#serviceSponsor{
+        background: center / cover no-repeat url("sectionsponsor.webp");
+        height: 400px;
+        flex-direction: column;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+}
+
+#footer{
+height: 100px;
+background-color: black;
+text-align: center;
+color: white;
+padding-top: 35px;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 563px;
+    width: 417px;
+    height: 282px;
+    box-shadow: 0px 10px 10px black;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.input{
+    padding-top: 28px;
+}
+h1 {
+text-align: center;
+padding-top: 20px;
+}
